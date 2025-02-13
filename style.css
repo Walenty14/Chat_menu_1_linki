@@ -1,0 +1,43 @@
+* {
+   margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #509091;
+}
+header {
+    background-color: #6982c0;
+  
+}
+div {
+    height: 6rem;
+}
+h1 {
+    text-align: center;
+    /* height: 3.5rem; */
+    line-height: 6rem;
+    padding: 0;
+    
+
+}
+nav {
+    background-color: #555454;
+    height: 6rem;
+    text-align: right;
+}
+nav a {
+    background-color: #d1d0a3;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-left: 60px;
+    line-height: 6rem;
+    padding: 3px 30px;
+    border-radius: 5px;
+}
+nav a:last-child {
+    margin-right: 100px;
+}
+nav a:hover {
+    font-size: 2rem;
+    background-color: #fff;
+}
