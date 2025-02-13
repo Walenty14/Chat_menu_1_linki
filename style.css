@@ -41,3 +41,15 @@ nav a:hover {
     font-size: 2rem;
     background-color: #fff;
 }
+main {
+    background-color: #8071aa;
+    height: 30vh;
+}
+section {
+    background-color: #abb46e;
+    height: 36vh;
+}
+footer {
+    background-color: #323131;
+    height: 10vh;
+}
