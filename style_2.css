@@ -1,30 +1,33 @@
 * {
-   margin: 0;
+    margin: 0;
     padding: 0;
 }
+
 body {
     background-color: #509091;
 }
+
 header {
     background-color: #6982c0;
-  
 }
+
 div {
     height: 6rem;
 }
+
 h1 {
     text-align: center;
-    /* height: 3.5rem; */
     line-height: 6rem;
     padding: 0;
-    
-
 }
+
 nav {
     background-color: #555454;
     height: 6rem;
     text-align: right;
+    position: relative; /* Upewniamy się, że nav jest odpowiednio widoczny */
 }
+
 nav a {
     background-color: #d1d0a3;
     font-size: 1.5rem;
@@ -34,30 +37,35 @@ nav a {
     padding: 3px 30px;
     border-radius: 5px;
 }
+
 nav a:last-child {
     margin-right: 100px;
 }
+
 nav a:hover {
     font-size: 2rem;
     background-color: #fff;
 }
+
 main {
     background-color: #8071aa;
-    height: 32vh;
+    /* Wysokość głównej sekcji z uwzględnieniem header, nav i footer */
+    /* height: calc(100vh - 6rem - 6rem - 8vh - 15vh);  */
+    height: 8rem;
 }
+
 section {
     float: right;
     width: 70%;
     background-color: #abb46e;
-    /* height: 36vh; */
-    height: 30vh;
+    height: calc(100vh - 6rem - 6rem - 8vh - 8rem); /* Wysokość sekcji dopasowana do main */
 }
 
 aside {
     background-color: #5c7e5c;
-    height: 30vh;
     float: left;
     width: 30%;
+    height: calc(100vh - 6rem - 6rem - 8vh - 8rem); /* Wysokość dopasowana do main */
 }
 
 footer {
