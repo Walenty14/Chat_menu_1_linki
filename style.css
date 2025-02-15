@@ -46,9 +46,20 @@ main {
     height: 30vh;
 }
 section {
+    float: right;
+    width: 70%;
     background-color: #abb46e;
-    height: 36vh;
+    /* height: 36vh; */
+    height: 30vh;
 }
+
+aside {
+    background-color: #5c7e5c;
+    height: 30vh;
+    float: left;
+    width: 30%;
+}
+
 footer {
     background-color: #323131;
     height: 8vh;
@@ -56,4 +67,5 @@ footer {
     font-size: 1.2rem;
     line-height: 8vh;
     padding: 0 10rem;
+    clear: both;  /* Zapobiega nachodzeniu innych elementów */
 }
